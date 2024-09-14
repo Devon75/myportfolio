@@ -5,7 +5,6 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
     screens: {
       'sm': {'min': '640px', 'max': '767px'},
       // => @media (min-width: 640px and max-width: 767px) { ... }
@@ -21,7 +20,7 @@ export default {
 
       '2xl': {'min': '1536px'},
       // => @media (min-width: 1536px) { ... }
-    }
+    },
   },
   plugins: [],
 }
