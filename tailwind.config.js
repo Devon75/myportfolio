@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     screens: {
+      'minus' : {'max': '639px'},
+      // => @media (max-width: 639px) { ... }
+
       'sm': {'min': '640px', 'max': '767px'},
       // => @media (min-width: 640px and max-width: 767px) { ... }
 
@@ -20,6 +23,15 @@ export default {
 
       '2xl': {'min': '1536px'},
       // => @media (min-width: 1536px) { ... }
+
+      'tablet': '640px',
+      // => @media (min-width: 640px) { ... }
+
+      'laptop': '1024px',
+      // => @media (min-width: 1024px) { ... }
+
+      'desktop': '1280px',
+      // => @media (min-width: 1280px) { ... }
     },
   },
   plugins: [],
