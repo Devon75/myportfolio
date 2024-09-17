@@ -5,9 +5,9 @@ function Footer() {
     return (
 
 
-        <footer class="bg-white rounded-lg shadow m-4 ml-28 mr-16 dark:bg-gray-800">
-            <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
-                <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href="https://flowbite.com/" class="hover:underline">Flowbite™</a>. Tous Droits Réservés.
+        <footer class="bg-white rounded-lg shadow m-4 ml-28 mr-16 minus:ml-5 minus:mr-5 sm:ml-16 sm:mr-16 dark:bg-gray-800">
+            <div class="w-full mx-auto max-w-screen-xl p-4 laptop:flex laptop:items-center laptop:justify-between">
+                <span class="text-sm text-gray-500 laptop:mt-3 sm:text-center dark:text-gray-400">© 2024 <a href="https://flowbite.com/" class="hover:underline">Flowbite™</a>. Tous Droits Réservés.
                 </span>
                 <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
                     <li>
