@@ -6,6 +6,8 @@ import Moi from './components/Moi'
 import Cv from './components/Cv'
 import Projet from './components/Projet'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
+import { StrictMode } from 'react'
 
 function App() {
 
@@ -21,7 +23,9 @@ function App() {
           <Route path='Contact' element={<Contact />} />
         </Route>
       </Routes>
+      <Footer />
     </BrowserRouter>
+    
 
 
   )
