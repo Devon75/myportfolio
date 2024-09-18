@@ -1,28 +1,28 @@
 function Projet() {
     return (
-        <div class="grid grid-cols-4 gap-2 ml-28 mr-16 mt-5">
-            <a href="#" class="col-span-1 p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+        <div class="grid grid-cols-3 gap-2 ml-28 mr-16 minus:grid-cols-2 minus:ml-5 minus:mr-5 sm:grid-cols-2 sm:ml-16 mt-5">
+            <a href="#" class="col-1 p-6 minus:col-span-2 sm:col-span-1 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                 <img src="src/image/paysage.avif" alt="paysage" />
             </a>
-            <a href="#" class="col-span-1 p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+            <a href="#" class="col-1 p-6 minus:col-span-2 sm:col-span-1 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                 <img src="src/image/paysage.avif" alt="paysage" />
             </a>
-            <a href="#" class="col-span-1 p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+            <a href="#" class="col-1 p-6 minus:col-span-2 sm:col-span-1 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                 <img src="src/image/paysage.avif" alt="paysage" />
             </a>
-            <a href="#" class="col-span-1 p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+            <a href="#" class="col-1 p-6 minus:col-span-2 sm:col-span-1 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                 <img src="src/image/paysage.avif" alt="paysage" />
             </a>
-            <a href="#" class="col-span-1 p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+            <a href="#" class="col-1 p-6 minus:col-span-2 sm:col-span-1 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                 <img src="src/image/paysage.avif" alt="paysage" />
             </a>
-            <a href="#" class="col-span-1 p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+            <a href="#" class="col-1 p-6 minus:col-span-2 sm:col-span-1 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                 <img src="src/image/paysage.avif" alt="paysage" />
             </a>
-            <a href="#" class="col-span-1 p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+            <a href="#" class="col-1 p-6 minus:col-span-2 sm:col-span-1 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                 <img src="src/image/paysage.avif" alt="paysage" />
             </a>
-            <a href="#" class="col-span-1 p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+            <a href="#" class="col-1 p-6 minus:col-span-2 sm:col-span-1 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                 <img src="src/image/paysage.avif" alt="paysage" />
             </a>
         </div>

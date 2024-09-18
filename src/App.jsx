@@ -5,7 +5,6 @@ import Navbar from './components/Navbar'
 import Moi from './components/Moi'
 import Cv from './components/Cv'
 import Projet from './components/Projet'
-import Contact from './components/Contact'
 import Footer from './components/Footer'
 import { StrictMode } from 'react'
 
@@ -20,7 +19,6 @@ function App() {
           <Route path='moi' element={<Moi />} />
           <Route path='Cv' element={<Cv />} />
           <Route path='Projet' element={<Projet />} />
-          <Route path='Contact' element={<Contact />} />
         </Route>
       </Routes>
       <Footer />
