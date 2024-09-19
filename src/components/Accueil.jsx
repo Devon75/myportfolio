@@ -2,9 +2,9 @@
 
 function Accueil() {
     return (
-        <section class="h-screen bg-gradient-to-tr from-lime-50 to-emerald-50 dark:bg-gray-900">
-            <div class="justify-center items-center text-center flex flex-col mt-10">
-                <div class="col-span-1 ml-28 sm:ml-16 minus:ml-5 minus:mr-5 minus:col-span-2 mr-16 sm:mr-16">
+        <section class="flex justify-center items-center text-center h-screen bg-gradient-to-tr from-lime-50 to-emerald-50 dark:bg-gray-900">
+            <div class=" mt-10">
+                <div class="ml-28 sm:ml-16 minus:ml-5 minus:mr-5 mr-16 sm:mr-16">
                     <a href="#" class="inline-flex justify-between items-center py-1 px-1 pl-4 pr-4 mb-7 text-sm text-emerald-950 bg-none rounded-full dark:bg-gray-800 dark:text-white hover:bg-blanclune-100 hover:text-teal-900 dark:hover:bg-gray-700" role="alert">
                         <span class="text-sm font-medium">Software & backend developper</span>
                         <svg class="ml-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>

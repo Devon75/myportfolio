@@ -16,9 +16,9 @@ function App() {
       <Routes>
         <Route path='/' element={<Navbar />}>
           <Route index element={<Accueil />} />
-          <Route path='moi' element={<Moi />} />
-          <Route path='Cv' element={<Cv />} />
-          <Route path='Projet' element={<Projet />} />
+          <Route path='/moi' element={<Moi />} />
+          <Route path='/Cv' element={<Cv />} />
+          <Route path='/Projet' element={<Projet />} />
         </Route>
       </Routes>
       <Footer />
