@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@preline/accordion": "^2.4.1",
+    "@szhsin/react-accordion": "^1.2.5",
     "database-js": "^3.0.11",
     "database-js-json": "^1.2.1",
     "react": "^18.3.1",

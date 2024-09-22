@@ -1,0 +1,18 @@
+
+                <Accordion class="mt-5 ml-28 mr-16 w-full">
+                    <AccordionItem header="Logiciels" class="text-emerald-600">
+                        <p class="text-base text-emerald-600 leading-6">
+                            Linux, powerShell, intelliJIDEA, netBeans, microsoft visual studio, vite, eclipse, code::blocks, cLion, gnu computer compilation (GCC), visual studio code, notepad++, mySQL, microsoft SQL server, SQLite, phpMyAdmin, mongodb, symfony
+                        </p>
+                    </AccordionItem>
+                    <AccordionItem header="Framework" class="text-emerald-600">
+                        <p class="text-base text-emerald-600 leading-6">
+                            Bootstrap, materialize, flowbite, W3.css, react, Node.js, numPy, pygame, .NET Framework, tailwind
+                        </p>
+                    </AccordionItem>
+                    <AccordionItem header="APIs" class="text-emerald-600">
+                        <p class="text-base text-emerald-600 leading-6">
+                            DOM (Document Object Model) API, geolocation API
+                        </p>
+                    </AccordionItem>
+                </Accordion>

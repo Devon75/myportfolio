@@ -48,9 +48,6 @@ function Footer() {
                     <li>
                         <Link to="#" class="text-emerald-950 hover:text-emerald-400 hover:underline me-4 md:me-6">Licence</Link>
                     </li>
-                    <li>
-                        <Link to="/Contact" class="text-emerald-950 hover:text-emerald-400 hover:underline">Contact</Link>
-                    </li>
                 </ul>
             </div>
         </footer>

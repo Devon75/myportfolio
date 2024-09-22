@@ -1,83 +1,221 @@
 function Moi() {
     return (
-        <div class="h-screen grid grid-cols-2 mt-5 gap-2 p-4 bg-gradient-to-tr from-lime-50 to-emerald-50">
-            <div class="col-span-2 mt-5 ml-28 mr-16 text-emerald-600 items-center text-center minus:ml-5 minus:mr-5 minus:col-span-2 sm:ml-16 sm:mr-16">
+        <div class="flex flex-col p-4 bg-gradient-to-tr from-lime-50 to-emerald-50">
+            <div class="mt-5 ml-28 mr-16 items-center text-emerald-600 text-center minus:ml-5 minus:mr-5 minus:col-span-2 sm:ml-16 sm:mr-16">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, autem optio! Placeat dolor recusandae quaerat animi! Aperiam perspiciatis corporis minus.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore laudantium quo molestias molestiae officiis praesentium tenetur qui eveniet totam laborum quasi hic, nulla amet animi sit accusamus! Architecto hic ex accusamus accusantium, ducimus suscipit porro.
             </div>
-            <div class="col-1 ml-28 minus:ml-5 minus:mr-5 minus:col-span-2 sm:ml-16 sm:mr-16 sm:col-span-2 p-3 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                <h5 class="mb-2 mt-4 text-2xl text-center font-bold tracking-tight text-emerald-950 dark:text-white">Savoir-faire</h5>
-                <p class="font-normal dark:text-gray-400">
-                    <h6 class="mt-3 ml-5 text-emerald-900">Projet css</h6>
-                    <ul class="ml-10 space-y-1 text-emerald-600 list-disc list-inside dark:text-gray-400">
-                        <li>
-                            Effets d'animation de chargeur de cercle ondulé 3D en CSS
-                        </li>
-                        <li>
-                            Effets d'animation de route sans fin en CSS
-                        </li>
-                        <li>
-                            Effet de verre dépoli en CSS utilisant le filtre de fond (backdrop-filter)
-                        </li>
-                        <li>
-                            Effets d'animation de texte
-                            de tube lumineux brillant en CSS
-                        </li>
-                        <li>
-                            Effets d'animation de chargement circulaire en CSS
-                        </li>
-                        <li>
-                            Effets d'animation de bouton de lumière néon en CSS
-                        </li>
-                        <li>
-                            Effets d'animation d'ondes d'eau sur texte en CSS
-                        </li>
-                        <li>
-                            Effets d'animation de ligne élastique SVG
-                        </li>
-                    </ul>
-                    <h6 class="mt-3 ml-5 text-emerald-900">Projet js</h6>
-                    <ul class="ml-10 space-y-1 text-emerald-600 list-disc list-inside dark:text-gray-400">
-                        <li>
-                            Compteur en JS
-                        </li>
-                        <li>
-                            Dino Jump en JS
-                        </li>
-                        <li>
-                            Ping Pong en JS
-                        </li>
-                        <li>
-                            Frogger en JS
-                        </li>
-                        <li>
-                            Rock Paper Scissors en JS
-                        </li>
-                        <li>
-                            Squid Game en JS
-                        </li>
-                    </ul>
-                </p>
+            <div class="mt-5 ml-28 mr-16 items-center bg-white border-gray-400 rounded p-4 minus:ml-5 minus:mr-5 minus:col-span-2 sm:ml-16 sm:mr-16">
+                <h2 class="text-emerald-950 font-extrabold text-6xl">Savoir-Faire</h2>
+                <table class="ml-28 mr-16 table-auto border-separate border border-emerald-950">
+                    <thead>
+                        <tr>
+                            <th class="border border-emerald-950 w-3/5 text-emerald-800">
+                                Projet
+                            </th>
+                            <th class="border border-emerald-950 w-1/5 text-emerald-800">
+                                Language
+                            </th>
+                            <th class="border border-emerald-950 w-1/5 text-emerald-800">
+                                Framework
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="border border-emerald-950 text-emerald-600">
+                                Effets d'animation de chargeur de cercle ondulé 3D
+                            </td>
+                            <td class="border border-emerald-950 text-center text-emerald-600">
+                                CSS
+                            </td>
+                            <td class="border border-emerald-950 text-emerald-600"></td>
+                        </tr>
+                        <tr>
+                            <td class="border border-emerald-950 text-emerald-600">
+                                Effets d'animation de route sans fin
+                            </td>
+                            <td class="border border-emerald-950 text-center text-emerald-600">
+                                CSS
+                            </td>
+                            <td class="border border-emerald-950 text-emerald-600"></td>
+                        </tr>
+                        <tr>
+                            <td class="border border-emerald-950 text-emerald-600">
+                                Effet de verre dépoli en CSS utilisant le filtre de fond (backdrop-filter)
+                            </td>
+                            <td class="border border-emerald-950 text-center text-emerald-600">
+                                CSS
+                            </td>
+                            <td class="border border-emerald-950 text-emerald-600"></td>
+                        </tr>
+                        <tr>
+                            <td class="border border-emerald-950 text-emerald-600">
+                                Effets d'animation de texte de tube lumineux brillant
+                            </td>
+                            <td class="border border-emerald-950 text-center text-emerald-600">
+                                CSS
+                            </td>
+                            <td class="border border-emerald-950 text-emerald-600"></td>
+                        </tr>
+                        <tr>
+                            <td class="border border-emerald-950 text-emerald-600">
+                                Effets d'animation de chargement circulaire
+                            </td>
+                            <td class="border border-emerald-950 text-center text-emerald-600">
+                                CSS
+                            </td>
+                            <td class="border border-emerald-950 text-emerald-600"></td>
+                        </tr>
+                        <tr>
+                            <td class="border border-emerald-950 text-emerald-600">
+                                Effets d'animation de bouton de lumière néon
+                            </td>
+                            <td class="border border-emerald-950 text-center text-emerald-600">
+                                CSS
+                            </td>
+                            <td class="border border-emerald-950 text-emerald-600"></td>
+                        </tr>
+                        <tr>
+                            <td class="border border-emerald-950 text-emerald-600">
+                                Effets d'animation d'ondes d'eau sur texte
+                            </td>
+                            <td class="border border-emerald-950 text-center text-emerald-600">
+                                CSS
+                            </td>
+                            <td class="border border-emerald-950 text-emerald-6000"></td>
+                        </tr>
+                        <tr>
+                            <td class="border border-emerald-950 text-emerald-600">
+                                Effets d'animation de ligne élastique SVG
+                            </td>
+                            <td class="border border-emerald-950 text-center text-emerald-600">
+                                CSS
+                            </td>
+                            <td class="border border-emerald-950 text-emerald-600"></td>
+                        </tr>
+                        <tr>
+                            <td class="border border-emerald-950 text-emerald-600">
+                                Compteur
+                            </td>
+                            <td class="border border-emerald-950 text-center text-emerald-600">
+                                JS
+                            </td>
+                            <td class="border border-emerald-950 text-emerald-600"></td>
+                        </tr>
+
+                        <tr>
+                            <td class="border border-emerald-950 text-emerald-600">
+                                Dino Jump
+                            </td>
+                            <td class="border border-emerald-950 text-center text-emerald-600">
+                                JS
+                            </td>
+                            <td class="border border-emerald-950 text-emerald-600"></td>
+                        </tr>
+                        <tr>
+                            <td class="border border-emerald-950 text-emerald-600">
+                                Ping Pong
+                            </td>
+                            <td class="border border-emerald-950 text-center text-emerald-600">
+                                JS
+                            </td>
+                            <td class="border border-emerald-950 text-emerald-600"></td>
+                        </tr>
+                        <tr>
+                            <td class="border border-emerald-950 text-emerald-600">
+                                Frogger
+                            </td>
+                            <td class="border border-emerald-950 text-center text-emerald-600">
+                                JS
+                            </td>
+                            <td class="border border-emerald-950 text-emerald-600"></td>
+                        </tr>
+                        <tr>
+                            <td class="border border-emerald-950 text-emerald-600">
+                                Rock Paper Scissors
+                            </td>
+                            <td class="border border-emerald-950 text-center text-emerald-600">
+                                JS
+                            </td>
+                            <td class="border border-emerald-950 text-emerald-600"></td>
+                        </tr>
+                        <tr>
+                            <td class="border border-emerald-950 text-emerald-600">
+                                Squid Game
+                            </td>
+                            <td class="border border-emerald-950 text-center text-emerald-600">
+                                JS
+                            </td>
+                            <td class="border border-emerald-950 text-emerald-600"></td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
-            <div class="col-1 mr-16 minus:ml-5 minus:mr-5 minus:col-span-2 sm:ml-16 sm:mr-16 sm:col-span-2 p-3 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                <h5 class="mb-2 mt-4 text-2xl text-center font-bold tracking-tight text-emerald-950 dark:text-white">Compétences</h5>
-                <p class="font-normal text-gray-700 dark:text-gray-400">
-                    <h6 class="mt-3 ml-5 text-emerald-900">Languages:</h6>
-                    <p class="ml-10 space-y-1 text-emerald-600 dark:text-gray-400">
-                        Java, python, C#, C++, html, css, js, SQL, php, typescript
-                    </p>
-                    <h6 class="mt-3 ml-5 text-emerald-900">Logiciels:</h6>
-                    <p class="ml-10 space-y-1 text-emerald-600 dark:text-gray-400">
-                        Linux, powerShell, intelliJIDEA, netBeans, microsoft visual studio, vite, eclipse, code::blocks, cLion, gnu computer compilation (GCC), visual studio code, notepad++, mySQL, microsoft SQL server, SQLite, phpMyAdmin, mongodb, symfony
-                    </p>
-                    <h6 class="mt-3 ml-5 text-emerald-900">Framework:</h6>
-                    <p class="ml-10 space-y-1 text-emerald-600 dark:text-gray-400">
-                        Bootstrap, materialize, flowbite, W3.css, react, Node.js, numPy, pygame, .NET Framework, tailwind
-                    </p>
-                    <h6 class="mt-3 ml-5 text-emerald-900">APIs:</h6>
-                    <p class="ml-10 space-y-1 text-emerald-600 dark:text-gray-400">
-                        DOM (Document Object Model) API, geolocation API
-                    </p>
-                </p>
+            <div class="mt-5 ml-28 mr-16 items-center bg-white border-gray-400 rounded p-4 minus:ml-5 minus:mr-5 minus:col-span-2 sm:ml-16 sm:mr-16">
+                <h2 class="text-emerald-950 font-extrabold text-6xl">Compétences</h2>
+                <div class="grid grid-cols-2 gap-x-8 mt-5 ml-28 mr-16 bg-white border-gray-400 rounded p-4 minus:ml-5 minus:mr-5 minus:col-span-2 sm:ml-16 sm:mr-16">
+                    <div class="flex flex-row items-center gap-x-8">
+                        <h6>Java</h6>
+                        <div class="w-full bg-gray-200 rounded-full h-2 dark:bg-gray-700">
+                            <div class="bg-emerald-700 h-2 rounded-full w-1/3"></div>
+                        </div>
+                    </div>
+                    <div class="flex flex-row items-center gap-x-8">
+                        <h6>Python</h6>
+                        <div class="w-full bg-gray-200 rounded-full h-2 dark:bg-gray-700">
+                            <div class="bg-emerald-700 h-2 rounded-full w-4/5"></div>
+                        </div>
+                    </div>
+                    <div class="flex flex-row items-center gap-x-8">
+                        <h6>C#</h6>
+                        <div class="w-full bg-gray-200 rounded-full h-2 dark:bg-gray-700">
+                            <div class="bg-emerald-700 h-2 rounded-full w-10/12"></div>
+                        </div>
+                    </div>
+                    <div class="flex flex-row items-center gap-x-8">
+                        <h6>C++</h6>
+                        <div class="w-full bg-gray-200 rounded-full h-2 dark:bg-gray-700">
+                            <div class="bg-emerald-700 h-2 rounded-full w-1/2"></div>
+                        </div>
+                    </div>
+                    <div class="flex flex-row items-center gap-x-8">
+                        <h6>HTML</h6>
+                        <div class="w-full bg-gray-200 rounded-full h-2 dark:bg-gray-700">
+                            <div class="bg-emerald-700 h-2 rounded-full w-11/12"></div>
+                        </div>
+                    </div>
+                    <div class="flex flex-row items-center gap-x-8">
+                        <h6>CSS</h6>
+                        <div class="w-full bg-gray-200 rounded-full h-2 dark:bg-gray-700">
+                            <div class="bg-emerald-700 h-2 rounded-full w-11/12"></div>
+                        </div>
+                    </div>
+                    <div class="flex flex-row items-center gap-x-8">
+                        <h6>JS</h6>
+                        <div class="w-full bg-gray-200 rounded-full h-2 dark:bg-gray-700">
+                            <div class="bg-emerald-700 h-2 rounded-full w-5/6"></div>
+                        </div>
+                    </div>
+                    <div class="flex flex-row items-center gap-x-8">
+                        <h6>SQL</h6>
+                        <div class="w-full bg-gray-200 rounded-full h-2 dark:bg-gray-700">
+                            <div class="bg-emerald-700 h-2 rounded-full w-8/12"></div>
+                        </div>
+                    </div>
+                    <div class="flex flex-row items-center gap-x-8">
+                        <h6>PHP</h6>
+                        <div class="w-full bg-gray-200 rounded-full h-2 dark:bg-gray-700">
+                            <div class="bg-emerald-700 h-2 rounded-full w-10/12"></div>
+                        </div>
+                    </div>
+                    <div class="flex flex-row items-center gap-x-8">
+                        <h6>Typescript</h6>
+                        <div class="w-full bg-gray-200 rounded-full h-2 dark:bg-gray-700">
+                            <div class="bg-emerald-700 h-2 rounded-full w-4/12"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     )
