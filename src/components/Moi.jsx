@@ -2,8 +2,7 @@ function Moi() {
     return (
         <div class="flex flex-col p-4 bg-gradient-to-tr from-lime-50 to-emerald-50">
             <div class="mt-5 ml-28 mr-16 items-center text-emerald-600 text-center minus:ml-5 minus:mr-5 minus:col-span-2 sm:ml-16 sm:mr-16">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, autem optio! Placeat dolor recusandae quaerat animi! Aperiam perspiciatis corporis minus.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore laudantium quo molestias molestiae officiis praesentium tenetur qui eveniet totam laborum quasi hic, nulla amet animi sit accusamus! Architecto hic ex accusamus accusantium, ducimus suscipit porro.
+                Ayant passé un BTS SIO option SLAM j'ai de bonne base en HTML5, CSS3, C# et PHP.<br/>Au cours de mes études j'ai appris à utiliser différents frameworks tels que bootstrap, materialize, react, symfony, express ou encore tailwind.
             </div>
             <div class="mt-5 ml-28 mr-16 items-center bg-white border-gray-400 rounded p-4 minus:ml-5 minus:mr-5 minus:col-span-2 sm:ml-16 sm:mr-16">
                 <h2 class="text-emerald-950 font-extrabold text-6xl">Savoir-Faire</h2>
@@ -156,61 +155,61 @@ function Moi() {
                 <h2 class="text-emerald-950 font-extrabold text-6xl">Compétences</h2>
                 <div class="grid grid-cols-2 gap-x-8 mt-5 ml-28 mr-16 bg-white border-gray-400 rounded p-4 minus:ml-5 minus:mr-5 minus:col-span-2 sm:ml-16 sm:mr-16">
                     <div class="flex flex-row items-center gap-x-8">
-                        <h6>Java</h6>
+                        <h6 class="text-emerald-950">Java</h6>
                         <div class="w-full bg-gray-200 rounded-full h-2 dark:bg-gray-700">
                             <div class="bg-emerald-700 h-2 rounded-full w-1/3"></div>
                         </div>
                     </div>
                     <div class="flex flex-row items-center gap-x-8">
-                        <h6>Python</h6>
+                        <h6 class="text-emerald-950">Python</h6>
                         <div class="w-full bg-gray-200 rounded-full h-2 dark:bg-gray-700">
                             <div class="bg-emerald-700 h-2 rounded-full w-4/5"></div>
                         </div>
                     </div>
                     <div class="flex flex-row items-center gap-x-8">
-                        <h6>C#</h6>
+                        <h6 class="text-emerald-950">C#</h6>
                         <div class="w-full bg-gray-200 rounded-full h-2 dark:bg-gray-700">
                             <div class="bg-emerald-700 h-2 rounded-full w-10/12"></div>
                         </div>
                     </div>
                     <div class="flex flex-row items-center gap-x-8">
-                        <h6>C++</h6>
+                        <h6 class="text-emerald-950">C++</h6>
                         <div class="w-full bg-gray-200 rounded-full h-2 dark:bg-gray-700">
                             <div class="bg-emerald-700 h-2 rounded-full w-1/2"></div>
                         </div>
                     </div>
                     <div class="flex flex-row items-center gap-x-8">
-                        <h6>HTML</h6>
+                        <h6 class="text-emerald-950">HTML</h6>
                         <div class="w-full bg-gray-200 rounded-full h-2 dark:bg-gray-700">
                             <div class="bg-emerald-700 h-2 rounded-full w-11/12"></div>
                         </div>
                     </div>
                     <div class="flex flex-row items-center gap-x-8">
-                        <h6>CSS</h6>
+                        <h6 class="text-emerald-950">CSS</h6>
                         <div class="w-full bg-gray-200 rounded-full h-2 dark:bg-gray-700">
                             <div class="bg-emerald-700 h-2 rounded-full w-11/12"></div>
                         </div>
                     </div>
                     <div class="flex flex-row items-center gap-x-8">
-                        <h6>JS</h6>
+                        <h6 class="text-emerald-950">JS</h6>
                         <div class="w-full bg-gray-200 rounded-full h-2 dark:bg-gray-700">
                             <div class="bg-emerald-700 h-2 rounded-full w-5/6"></div>
                         </div>
                     </div>
                     <div class="flex flex-row items-center gap-x-8">
-                        <h6>SQL</h6>
+                        <h6 class="text-emerald-950">SQL</h6>
                         <div class="w-full bg-gray-200 rounded-full h-2 dark:bg-gray-700">
                             <div class="bg-emerald-700 h-2 rounded-full w-8/12"></div>
                         </div>
                     </div>
                     <div class="flex flex-row items-center gap-x-8">
-                        <h6>PHP</h6>
+                        <h6 class="text-emerald-950">PHP</h6>
                         <div class="w-full bg-gray-200 rounded-full h-2 dark:bg-gray-700">
                             <div class="bg-emerald-700 h-2 rounded-full w-10/12"></div>
                         </div>
                     </div>
                     <div class="flex flex-row items-center gap-x-8">
-                        <h6>Typescript</h6>
+                        <h6 class="text-emerald-950">Typescript</h6>
                         <div class="w-full bg-gray-200 rounded-full h-2 dark:bg-gray-700">
                             <div class="bg-emerald-700 h-2 rounded-full w-4/12"></div>
                         </div>
