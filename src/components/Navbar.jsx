@@ -4,7 +4,7 @@ function Navbar() {
 
     return (
         <>
-            <nav class="min-h-20 flex items-center justify-center bg-gradient-to-tr from-emerald-50 to-lime-50 border-solid border-b-2 border-emerald-950 drop-shadow-2xl dark:bg-gradient-to-tr from-emerald-50 to-lime-50">
+            <nav class="min-h-20 flex items-center justify-center bg-gradient-to-tr from-emerald-50 to-lime-50 border-solid border-b-2 border-emerald-950 drop-shadow-2xl">
                 <div class="w-2/5 items-start justify-center ">
                     <Link to="/" class="flex items-baseline justify-center space-x-3 rtl:space-x-reverse minus:ml-5 sm:ml-16">
                         <img src="src/assets/image/newlogo.png" alt="Flowbite Logo" class="w-16 h-16" />
@@ -16,16 +16,10 @@ function Navbar() {
                         </svg>
                     </button>
                 </div>
-                <div class="w-4/5 items-center justify-center minus:hidden sm:hidden md:block md:w-max" id="navbar-default">
-                    <ul class="flex items-center mx-60 justify-around md: bg-transparent  md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md: dark:bg-transparent md:dark:bg-transparent dark:border-emerald-700">
+                <div class="w-3/5 items-center justify-center minus:hidden sm:hidden md:block md:w-max" id="navbar-default">
+                    <ul class="flex items-center mx-60 justify-evenly md: bg-transparent  md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md: dark:bg-transparent md:dark:bg-transparent dark:border-emerald-700">
                         <li>
                             <Link to="/" class="block rounded text-center bg-emerald-950 text-white py-2 px-1 hover:text-white md:text-white md:p-1 dark:text-white md:dark:text-white" aria-current="page">Accueil</Link>
-                        </li>
-                        <li>
-                            <Link to="/moi" class="block text-center text-emerald-950 rounded hover:text-emerald-400 md:border-0 md:hover:text-emerald-700 md:py-1 px-2 dark:text-emerald-950 md:dark:hover:text-emerald-700 dark:hover:text-emerald-950 md:dark:hover:bg-transparent">A propos de moi</Link>
-                        </li>
-                        <li>
-                            <Link to="/Cv" class="block text-center text-emerald-950 rounded hover:text-emerald-400 md:border-0 md:hover:text-emerald-700 md:py-1 px-2 dark:text-emerald-950 md:dark:hover:text-emerald-700 dark:hover:text-emerald-950 md:dark:hover:bg-transparent">CV</Link>
                         </li>
                         <li>
                             <Link to="/Projet" class="block text-center text-emerald-950 border-2 border-transparent border-r-emerald-950 hover:text-emerald-400 md:border-0 md:hover:text-emerald-700 md:py-1 pr-5 dark:text-emerald-950 md:dark:hover:text-emerald-700 dark:hover:text-emerald-950 md:dark:hover:bg-transparent">Projet</Link>
