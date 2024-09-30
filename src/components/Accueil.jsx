@@ -3,20 +3,20 @@ import { Link } from "react-router-dom";
 function Accueil() {
     return (
         <>
-            <section class="flex flex-col h-screen border-2 border-y-emerald-950 bg-gradient-to-tr from-lime-50 via-green-200 to-emerald-50">
+            <section class="flex flex-col h-full border-2 border-y-emerald-950 bg-gradient-to-tr from-lime-50 via-green-200 to-emerald-50">
                 <div class="h-full justify-center content-center text-center">
-                    <div class="ml-28 sm:ml-16 minus:ml-5 minus:mr-5 mr-16 sm:mr-16">
-                        <Link to="/Projet" class="inline-flex justify-between items-center py-1 px-1 pl-4 pr-4 mb-7 text-sm text-emerald-950 bg-none rounded-full dark:bg-none dark:text-emerald-950 hover:text-emerald-950" role="alert">
-                            <span class="text-sm font-medium">Développeur web fullstack</span>
+                    <div class="h-full border-red-600 border-2 sm:ml-1 minus:ml-5 minus:mr-5 sm:mr-1">
+                        <Link to="/Projet" class="inline-flex justify-between items-center py-1 px-1 mb-7 border-black border-2 text-sm text-emerald-950 bg-none rounded-full dark:bg-none dark:text-emerald-950 hover:text-emerald-950" role="alert">
+                            <span class="border-black border-2 text-sm font-medium">Développeur web fullstack</span>
                             <svg class="ml-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
                         </Link>
-                        <h1 class="max-w-5xl ml-28 mt-10 mb-5 mr-5 text-9xl text-emerald-950 text-center font-bold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-emerald-950">Créateur de site web fullstack</h1>
-                        <p class="max-w-5xl ml-28 mb-20 font-light text-4xl text-start text-emerald-800 tracking-normal lg:mb-8 md:text-lg lg:text-xl dark:text-emerald-800">
+                        <h1 class="mt-10 mb-5 border-blue-600 border-2 text-9xl text-emerald-950 font-bold tracking-tight leading-none minus:mx-0 minus:text-4xl sm:mx-0 sm:text-4xl md:mx-0 md:text-5xl lg:text-6xl xl:text-6xl dark:text-emerald-950">Créateur de site Web</h1>
+                        <p class="mb-20 px-40 border-black border-2 justify-center text-2xl text-justify text-wrap font-light text-emerald-800 tracking-normal minus:mx-0 minus:px-2 minus:text-left minus:text-md sm:mx-20 sm:px-10 md:px-40 md:text-lg lg:mb-8 lg:text-xl dark:text-emerald-800">
                             <span class="font-medium">Bonjour,&nbsp;&nbsp;&nbsp;je suis Karl!</span><br />
-                            Bienvenue dans mon portfolio où vous verrez mes projets et mon parcours scolaire et professionnel qui m'ont permis de devenir ce que je suis aujourd'hui.<br />
+                            Bienvenue dans mon portfolio où vous verrez mes projets et mon parcours scolaire et professionnel qui m'ont permis de devenir développeur fullstack.<br />
                             Depuis tout petit je suis passionné par l'informatique et les innovations technologiques.
                         </p>
-                        <a href="src/assets/Développeur_web_full-stack.pdf" class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-emerald-950 border border-emerald-300 rounded-lg hover:bg-emerald-100 hover:text-teal-900 focus:ring-4 focus:ring-emerald-100 dark:text-emerald-900 dark:border-emerald-700 dark:hover:bg-emerald-100 dark:focus:ring-emerald-800">
+                        <a href="src/assets/Développeur_web_full-stack.pdf" class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-emerald-950 border border-emerald-300 rounded-lg minus: mb-5 hover:bg-emerald-100 hover:text-teal-900 focus:ring-4 focus:ring-emerald-100 dark:text-emerald-900 dark:border-emerald-700 dark:hover:bg-emerald-100 dark:focus:ring-emerald-800">
                             Télécharger mon CV
                         </a>
                     </div>
@@ -42,6 +42,9 @@ function Accueil() {
                                 </th>
                                 <th class="border border-emerald-950 w-1/6 text-emerald-800">
                                     Base de données
+                                </th>
+                                <th class="border border-emerald-950 w-1/6 text-emerald-800">
+                                    Logiciel
                                 </th>
                             </tr>
                         </thead>
@@ -76,18 +79,21 @@ function Accueil() {
                                 <td class="border border-emerald-950 text-center text-lime-950">
                                     Java
                                 </td>
-                                <td class="border border-emerald-950 text-center text-lime-950">Eclipse/WidowBuilder</td>
+                                <td class="border border-emerald-950 text-center text-lime-950">Eclipse</td>
                                 <td class="border border-emerald-950 text-center text-lime-950"></td>
+                                <td class="border border-emerald-950 text-center text-lime-950">WidowBuilder</td>
                             </tr>
                             <tr>
                                 <td class="border border-emerald-950 text-lime-950">
-                                    Blog de voyage
+                                    Développement des fonctionnalités d'un site web à l'aide d'une infrastructure logicielle.
+                                    Les points rencontrés dans ce projet sont les caractéristiques des frameworks, la création d'un projet avec symfony, l'utilisation d'un IDE, l'organisation du projet conformément au modèle MVC et les test unitaires.
                                 </td>
                                 <td class="border border-emerald-950 text-center text-lime-950">
                                     PHP5
                                 </td>
                                 <td class="border border-emerald-950 text-center text-lime-950">Symfony</td>
                                 <td class="border border-emerald-950 text-center text-lime-950">PhpMyAdmin</td>
+                                <td class="border border-emerald-950 text-center text-lime-950">Wampserver</td>
                             </tr>
                             <tr>
                                 <td class="border border-emerald-950 text-lime-950">
@@ -123,12 +129,12 @@ function Accueil() {
                             </tr>
                             <tr>
                                 <td class="border border-emerald-950 text-lime-950">
-                                    Effets d'animation de texte de tube lumineux brillant
+                                    Réalisation d'une application mobile
                                 </td>
                                 <td class="border border-emerald-950 text-center text-lime-950">
-                                    HTML5/CSS3
+                                    Java
                                 </td>
-                                <td class="border border-emerald-950 text-lime-950"></td>
+                                <td class="border border-emerald-950 text-center text-lime-950">Android studio</td>
                                 <td class="border border-emerald-950 text-center text-lime-950"></td>
                             </tr>
                             <tr>
