@@ -23,12 +23,12 @@ function Accueil() {
                 </div>
             </section>
             <section class="flex flex-col h-full border-2 border-y-emerald-950 bg-gradient-to-tr from-emerald-50 via-green-200 to-lime-50">
-                <div class="max-h-max ml-28 mr-16 mb-10 flex-row justify-center content-center text-center">
-                    <h2 class="mt-10 my-3 text-center text-emerald-950 font-extrabold text-6xl">Savoir-Faire</h2>
-                    <div class="ml-28 mr-16 my-4 text-lime-950 text-center minus:ml-5 minus:mr-5 minus:col-span-2 sm:ml-16 sm:mr-16">
-                        Ayant passé un BTS SIO option SLAM j'ai de bonne base en HTML5, CSS3, C# et PHP.<br />Au cours de mes études j'ai appris à utiliser différents frameworks tels que bootstrap, materialize, react, symfony, express ou encore tailwind.
-                    </div>
-                    <table class="table-auto text-start border-separate border border-emerald-950">
+                <div class="max-h-max mb-10 flex-row justify-center content-center text-center border-2 border-red-600">
+                    <h2 class="my-3 text-center text-emerald-950 font-extrabold text-6xl border-2 border-blue-600">Savoir-Faire</h2>
+                    <p class="my-4 text-lime-950 text-left border-2 border-green-600 minus:px-28 minus:col-span-2 sm:px-28 md:px-32 lg:px-48 xl:px-52 2xl:px-56">
+                        Ayant passé un BTS SIO option SLAM j'ai de bonne base en HTML5, CSS3, C# et PHP.&ensp;Au cours de mes études j'ai appris à utiliser différents frameworks tels que bootstrap, materialize, react, symfony, express ou encore tailwind.
+                    </p>
+                    <table class="table-auto mx-5 text-start border-separate border border-emerald-950">
                         <thead>
                             <tr>
                                 <th class="border border-emerald-950 w-3/6 text-emerald-800">
@@ -59,6 +59,7 @@ function Accueil() {
                                 </td>
                                 <td class="border border-emerald-950 text-lime-950"></td>
                                 <td class="border border-emerald-950 text-center text-lime-950">PhpMyAdmin</td>
+                                <td class="border border-emerald-950 text-center text-lime-950"></td>
                             </tr>
                             <tr>
                                 <td class="border border-emerald-950 text-lime-950">
@@ -70,6 +71,7 @@ function Accueil() {
                                 </td>
                                 <td class="border border-emerald-950 text-center text-lime-950">SmartDraw</td>
                                 <td class="border border-emerald-950 text-center text-lime-950"></td>
+                                <td class="border border-emerald-950 text-center text-lime-950"></td>
                             </tr>
                             <tr>
                                 <td class="border border-emerald-950 text-lime-950">
@@ -79,9 +81,9 @@ function Accueil() {
                                 <td class="border border-emerald-950 text-center text-lime-950">
                                     Java
                                 </td>
-                                <td class="border border-emerald-950 text-center text-lime-950">Eclipse</td>
-                                <td class="border border-emerald-950 text-center text-lime-950"></td>
                                 <td class="border border-emerald-950 text-center text-lime-950">WidowBuilder</td>
+                                <td class="border border-emerald-950 text-center text-lime-950"></td>
+                                <td class="border border-emerald-950 text-center text-lime-950">Eclipse</td>
                             </tr>
                             <tr>
                                 <td class="border border-emerald-950 text-lime-950">
@@ -105,6 +107,7 @@ function Accueil() {
                                 </td>
                                 <td class="border border-emerald-950 text-center text-lime-950"></td>
                                 <td class="border border-emerald-950 text-center text-lime-950">MySQLWorkbench</td>
+                                <td class="border border-emerald-950 text-center text-lime-950"></td>
                             </tr>
                             <tr>
                                 <td class="border border-emerald-950 text-lime-950">
@@ -115,6 +118,7 @@ function Accueil() {
                                 </td>
                                 <td class="border border-emerald-950 text-center text-lime-950">Node.js</td>
                                 <td class="border border-emerald-950 text-center text-lime-950">Api Ninjas</td>
+                                <td class="border border-emerald-950 text-center text-lime-950"></td>
                             </tr>
                             <tr>
                                 <td class="border border-emerald-950 text-lime-950">
@@ -126,6 +130,7 @@ function Accueil() {
                                 </td>
                                 <td class="border border-emerald-950 text-center text-lime-950"></td>
                                 <td class="border border-emerald-950 text-center text-lime-950">Microsoft SQL server</td>
+                                <td class="border border-emerald-950 text-center text-lime-950"></td>
                             </tr>
                             <tr>
                                 <td class="border border-emerald-950 text-lime-950">
@@ -136,6 +141,7 @@ function Accueil() {
                                 </td>
                                 <td class="border border-emerald-950 text-center text-lime-950">Android studio</td>
                                 <td class="border border-emerald-950 text-center text-lime-950"></td>
+                                <td class="border border-emerald-950 text-center text-lime-950"></td>
                             </tr>
                             <tr>
                                 <td class="border border-emerald-950 text-lime-950">
@@ -145,6 +151,7 @@ function Accueil() {
                                     HTML5/JS
                                 </td>
                                 <td class="border border-emerald-950 text-lime-950"></td>
+                                <td class="border border-emerald-950 text-center text-lime-950"></td>
                                 <td class="border border-emerald-950 text-center text-lime-950"></td>
                             </tr>
                             <tr>
@@ -157,6 +164,7 @@ function Accueil() {
                                 </td>
                                 <td class="border border-emerald-950 text-center text-lime-950"></td>
                                 <td class="border border-emerald-950 text-center text-lime-950">Microsoft SQL server</td>
+                                <td class="border border-emerald-950 text-center text-lime-950"></td>
                             </tr>
                             <tr>
                                 <td class="border border-emerald-950 text-lime-950">
@@ -168,14 +176,15 @@ function Accueil() {
                                 </td>
                                 <td class="border border-emerald-950 text-center text-lime-950"></td>
                                 <td class="border border-emerald-950 text-center text-lime-950">MongoDB</td>
+                                <td class="border border-emerald-950 text-center text-lime-950"></td>
                             </tr>
                         </tbody>
                     </table>
-                    <h2 class="mt-10 text-center text-emerald-950 font-extrabold text-6xl">Compétences</h2>
-                    <div class="grid grid-cols-2 gap-x-8 mt-5 ml-28 mr-16 w-5/6 bg-white border-gray-400 rounded p-4 minus:ml-5 minus:mr-5 minus:col-span-2 sm:ml-16 sm:mr-16">
+                    <h2 class="my-3 text-center text-emerald-950 font-extrabold text-6xl border-2 border-yellow-600">Compétences</h2>
+                    <div class="grid grid-cols-2 gap-x-8 mt-5 p-4 bg-white border-gray-400 rounded minus:mx-5 minus:col-span-2 sm:ml-16 sm:mr-16">
                         <div class="flex flex-row items-center gap-x-8">
-                            <h6 class="text-emerald-950">Java</h6>
-                            <div class="w-full bg-gray-200 rounded-full h-2 dark:bg-gray-700">
+                            <h6 class="text-emerald-950 border-2 border-zinc-600">Java</h6>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
                                 <div class="bg-emerald-700 h-2 rounded-full w-1/3"></div>
                             </div>
                         </div>
