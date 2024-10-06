@@ -35,12 +35,12 @@ function Footer() {
                     <button type="submit" class="col-1 w-fit mr-28 text-white bg-emerald-950 hover:bg-emerald-700 hover:border-transparent focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm sm:w-fit px-5 py-2.5 text-center dark:bg-emerald-950 dark:hover:bg-emerald-700 dark:focus:ring-blue-800">Submit</button>
                 </div>
             </form>
-            <div class="w-full mx-auto max-w-screen-xl p-4 laptop:flex laptop:items-center laptop:justify-between">
+            <div class="w-full mx-auto max-w-screen-xl p-4 laptop:flex laptop:items-center laptop:justify-between sm:ml-11">
                 <span class="text-sm text-black laptop:mt-3 sm:text-center dark:text-black">© 2024 <a href="https://flowbite.com/" class="text-emerald-950 hover:text-emerald-400 hover:underline">Flowbite™</a>. Tous Droits Réservés.
                 </span>
                 <ul class="flex flex-wrap items-center mt-3 text-sm font-medium dark:text-emerald-400 sm:mt-0">
                     <li>
-                        <Link to="/Moi" class="text-emerald-950 hover:text-emerald-400 hover:underline me-4 md:me-6">About</Link>
+                        <a href="#moi" class="text-emerald-950 hover:text-emerald-400 hover:underline me-4 md:me-6">About</a>
                     </li>
                     <li>
                         <Link to="#" class="text-emerald-950 hover:text-emerald-400 hover:underline me-4 md:me-6">Politique de confidentialité</Link>
