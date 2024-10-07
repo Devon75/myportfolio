@@ -181,64 +181,64 @@ function Accueil() {
                         </tbody>
                     </table>
                     <h2 class="mt-20 mb-3 text-center text-emerald-950 font-extrabold text-6xl">Compétences</h2>
-                    <div class="grid grid-cols-2 gap-x-8 mt-5 mx-40 p-4 bg-white border-gray-400 rounded minus:mx-5 minus:col-span-2 sm:ml-16 sm:mr-16">
+                    <div class="grid grid-cols-2 gap-x-8 mt-5 mx-28 p-4 bg-white border-gray-400 rounded minus:mx-5 minus:col-span-2 sm:ml-16 sm:mr-16">
                         <div class="flex flex-row items-center gap-x-8">
-                            <h6 class="text-emerald-950 border-2 border-zinc-600">Java</h6>
+                            <h6 class="text-emerald-950">Java</h6>
                             <div class="w-full bg-gray-200 rounded-full h-2">
                                 <div class="bg-emerald-700 h-2 rounded-full w-1/3"></div>
                             </div>
                         </div>
                         <div class="flex flex-row items-center gap-x-8">
                             <h6 class="text-emerald-950">Python</h6>
-                            <div class="w-full bg-gray-200 rounded-full h-2 dark:bg-gray-700">
+                            <div class="w-full bg-gray-200 rounded-full h-2">
                                 <div class="bg-emerald-700 h-2 rounded-full w-4/5"></div>
                             </div>
                         </div>
                         <div class="flex flex-row items-center gap-x-8">
                             <h6 class="text-emerald-950">C#</h6>
-                            <div class="w-full bg-gray-200 rounded-full h-2 dark:bg-gray-700">
+                            <div class="w-full bg-gray-200 rounded-full h-2">
                                 <div class="bg-emerald-700 h-2 rounded-full w-10/12"></div>
                             </div>
                         </div>
                         <div class="flex flex-row items-center gap-x-8">
                             <h6 class="text-emerald-950">C++</h6>
-                            <div class="w-full bg-gray-200 rounded-full h-2 dark:bg-gray-700">
+                            <div class="w-full bg-gray-200 rounded-full h-2">
                                 <div class="bg-emerald-700 h-2 rounded-full w-1/2"></div>
                             </div>
                         </div>
                         <div class="flex flex-row items-center gap-x-8">
                             <h6 class="text-emerald-950">HTML</h6>
-                            <div class="w-full bg-gray-200 rounded-full h-2 dark:bg-gray-700">
+                            <div class="w-full bg-gray-200 rounded-full h-2">
                                 <div class="bg-emerald-700 h-2 rounded-full w-11/12"></div>
                             </div>
                         </div>
                         <div class="flex flex-row items-center gap-x-8">
                             <h6 class="text-emerald-950">CSS</h6>
-                            <div class="w-full bg-gray-200 rounded-full h-2 dark:bg-gray-700">
+                            <div class="w-full bg-gray-200 rounded-full h-2">
                                 <div class="bg-emerald-700 h-2 rounded-full w-11/12"></div>
                             </div>
                         </div>
                         <div class="flex flex-row items-center gap-x-8">
                             <h6 class="text-emerald-950">JS</h6>
-                            <div class="w-full bg-gray-200 rounded-full h-2 dark:bg-gray-700">
+                            <div class="w-full bg-gray-200 rounded-full h-2">
                                 <div class="bg-emerald-700 h-2 rounded-full w-5/6"></div>
                             </div>
                         </div>
                         <div class="flex flex-row items-center gap-x-8">
                             <h6 class="text-emerald-950">SQL</h6>
-                            <div class="w-full bg-gray-200 rounded-full h-2 dark:bg-gray-700">
+                            <div class="w-full bg-gray-200 rounded-full h-2">
                                 <div class="bg-emerald-700 h-2 rounded-full w-8/12"></div>
                             </div>
                         </div>
                         <div class="flex flex-row items-center gap-x-8">
                             <h6 class="text-emerald-950">PHP</h6>
-                            <div class="w-full bg-gray-200 rounded-full h-2 dark:bg-gray-700">
+                            <div class="w-full bg-gray-200 rounded-full h-2">
                                 <div class="bg-emerald-700 h-2 rounded-full w-10/12"></div>
                             </div>
                         </div>
                         <div class="flex flex-row items-center gap-x-8">
                             <h6 class="text-emerald-950">Typescript</h6>
-                            <div class="w-full bg-gray-200 rounded-full h-2 dark:bg-gray-700">
+                            <div class="w-full bg-gray-200 rounded-full h-2">
                                 <div class="bg-emerald-700 h-2 rounded-full w-4/12"></div>
                             </div>
                         </div>
