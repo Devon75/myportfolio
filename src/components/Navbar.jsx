@@ -22,10 +22,10 @@ function Navbar() {
                             <Link to="/" class="block rounded text-center bg-emerald-950 text-white py-2 px-1 hover:text-white md:text-white md:p-1 dark:text-white md:dark:text-white" aria-current="page">Accueil</Link>
                         </li>
                         <li>
-                            <a href="#moi" class="block text-center text-emerald-950 border-2 border-transparent hover:text-emerald-400 md:border-0 md:hover:text-emerald-700 md:py-1 px-5 dark:text-emerald-950 md:dark:hover:text-emerald-700 dark:hover:text-emerald-950 md:dark:hover:bg-transparent">A propos de moi</a>
+                            <a href="#moi" class="scroll-smooth focus:scroll-auto block text-center text-emerald-950 border-2 border-transparent hover:text-emerald-400 md:border-0 md:hover:text-emerald-700 md:py-1 px-5 dark:text-emerald-950 md:dark:hover:text-emerald-700 dark:hover:text-emerald-950 md:dark:hover:bg-transparent">A propos de moi</a>
                         </li>
                         <li>
-                            <a href="#cv" class="block text-center text-emerald-950 border-2 border-transparent hover:text-emerald-400 md:border-0 md:hover:text-emerald-700 md:py-1 pr-5 dark:text-emerald-950 md:dark:hover:text-emerald-700 dark:hover:text-emerald-950 md:dark:hover:bg-transparent">CV</a>
+                            <a href="#cv" class="scroll-smooth block text-center text-emerald-950 border-2 border-transparent hover:text-emerald-400 md:border-0 md:hover:text-emerald-700 md:py-1 pr-5 dark:text-emerald-950 md:dark:hover:text-emerald-700 dark:hover:text-emerald-950 md:dark:hover:bg-transparent">CV</a>
                         </li>
                         <li>
                             <Link to="/Projet" class="block text-center text-emerald-950 border-2 border-transparent border-r-emerald-950 hover:text-emerald-400 md:border-0 md:hover:text-emerald-700 md:py-1 pr-5 dark:text-emerald-950 md:dark:hover:text-emerald-700 dark:hover:text-emerald-950 md:dark:hover:bg-transparent">Projet</Link>

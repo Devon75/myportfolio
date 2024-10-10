@@ -16,8 +16,10 @@ function Accueil() {
                             Bienvenue dans mon portfolio où vous verrez mes projets et mon parcours scolaire et professionnel qui m'ont permis de devenir développeur fullstack.<br />
                             Depuis tout petit je suis passionné par l'informatique et les innovations technologiques.
                         </p>
-                        <a href="src/assets/Développeur_web_full-stack.pdf" class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-emerald-950 border border-emerald-300 rounded-lg minus: mb-5 hover:bg-emerald-100 hover:text-teal-900 focus:ring-4 focus:ring-emerald-100 dark:text-emerald-900 dark:border-emerald-700 dark:hover:bg-emerald-100 dark:focus:ring-emerald-800">
-                            Télécharger mon CV
+                        <a href="src/assets/Développeur_web_full-stack.pdf" class="relative inline-flex items-center justify-center p-1 overflow-hidden text-base font-medium text-center rounded-lg group bg-gradient-to-br from-emerald-600 to-lime-500 group-hover:from-emerald-600 group-hover:to-lime-500 hover:text-white minus: mb-5 focus:ring-4 focus:outline-none focus:ring-emerald-100 dark:text-emerald-900 dark:border-emerald-700 dark:hover:bg-emerald-100 dark:focus:ring-emerald-800">
+                            <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-white rounded-md group-hover:bg-opacity-0">
+                                Télécharger mon CV
+                            </span>
                         </a>
                     </div>
                 </div>
@@ -270,7 +272,7 @@ function Accueil() {
                     </ol>
                 </div>
                 <div class="block mr-16 mt-5 p-6 minus:col-span-2 minus:mx-5 sm:col-span-2 sm:mx-16 bg-white border border-emerald-700 rounded-lg shadow dark:bg-white dark:border-emerald-700">
-                    <h1 class="mb-5 text-center font-bold tracking-tight text-emerald-950 truncate hover:overflow-hidden dark:text-emerald-950">Expériences<br/>professionnelles</h1>
+                    <h1 class="mb-5 text-center font-bold tracking-tight text-emerald-950 truncate hover:overflow-hidden dark:text-emerald-950">Expériences<br />professionnelles</h1>
                     <ol class="relative border-s border-emerald-200 ml-5 dark:border-emerald-200">
                         <li class="mb*10 ms-4">
                             <div class="absolute w-3 h-3 bg-emerald-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-white dark:bg-emerald-200"></div>
